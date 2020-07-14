@@ -18,5 +18,5 @@ alias nscan='sudo nmap -sn 192.168.0.1/24'
 alias pscan='sudo nmap -p 1-1000, 8080'
 
 # Shortcut to update and upgrade
-alias uu='sudo apt update && sudo apt upgrade'
+alias uu='sudo apt update -y && sudo apt upgrade -y'
 
