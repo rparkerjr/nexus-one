@@ -14,7 +14,7 @@ alias la='ls -al --color'
 alias ls='ls -l --color'
 
 # Network scan to detect any connected devices
-alias scanwifi='sudo nmap -sn 192.168.0.1/24'
+alias nscan='sudo nmap -sn 192.168.0.1/24'
 alias pscan='sudo nmap -p 1-1000, 8080'
 
 # Shortcut to update and upgrade
